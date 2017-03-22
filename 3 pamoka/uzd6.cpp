@@ -15,19 +15,19 @@ int sk,s1,s2,s3,s4,s5,lyg,nelyg,nsum,lsand;
     s4 = sk / 10 % 10;
     s5 = sk % 10;
 
-    lsand = 1;
+    lsand = 1; // lyginių sandauga = 1, kad galėtų dauginti tą skaičių ateitije, nes pagal nutylėjimą skaičius būna 0, o dauginant iš nulio gauname 0
 
 
-    // determine 1
+    // 1 - asis skaičius, nustatome ar jis lyginis, ar nelyginis
     if (s1 % 2 == 0) {
-        lyg++;
-        lsand = lsand * s1;
+        lyg++; // lyginių skaičių skaičius, + 1
+        lsand = lsand * s1; // lyginių skaičių daugyba
     }
     else {
-        nelyg++;
-        nsum = nsum + s1;
+        nelyg++; // nelyginių skaičių skaičius, + 1
+        nsum = nsum + s1; // nelyginių skaičių suma 
     }
-    // determine 2
+    // 2 - asis skaičius, nustatome ar jis lyginis, ar nelyginis
     if (s2 % 2 == 0) {
         lyg++;
         lsand = lsand * s2;
@@ -36,7 +36,7 @@ int sk,s1,s2,s3,s4,s5,lyg,nelyg,nsum,lsand;
         nelyg++;
         nsum = nsum + s2;
     }
-    // determine 3
+    // 3 - asis skaičius, nustatome ar jis lyginis, ar nelyginis
     if (s3 % 2 == 0) {
         lyg++;
         lsand = lsand * s3;
@@ -45,7 +45,7 @@ int sk,s1,s2,s3,s4,s5,lyg,nelyg,nsum,lsand;
         nelyg++;
         nsum = nsum + s3;
     }
-    // determine 4
+    // 4 - asis skaičius, nustatome ar jis lyginis, ar nelyginis
     if (s4 % 2 == 0) {
         lyg++;
         lsand = lsand * s4;
@@ -54,7 +54,7 @@ int sk,s1,s2,s3,s4,s5,lyg,nelyg,nsum,lsand;
         nelyg++;
         nsum = nsum + s4;
     }
-    // determine 5
+    // 5 - asis skaičius, nustatome ar jis lyginis, ar nelyginis
     if (s5 % 2 == 0) {
         lyg++;
         lsand = lsand * s5;
@@ -69,8 +69,7 @@ int sk,s1,s2,s3,s4,s5,lyg,nelyg,nsum,lsand;
     cout << "Lyginių  sandauga: " << lsand << endl;
     cout << "Nelyginių    suma: " <<  nsum << endl;
 
-//cout << "Hello World!ę";
-//return 0;
+
 
 }
 
