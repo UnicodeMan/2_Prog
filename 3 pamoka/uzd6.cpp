@@ -2,7 +2,7 @@
 using namespace std;
 main()
 {
-setlocale(LC_CTYPE, "");
+setlocale(LC_CTYPE, ""); // Lietuvinam
 //Parašykite programą, kuri suskaičiuotų, kiek penkiaženkliame skaičiuje yra lyginių ir
 //nelyginių skaičių. Raskite nelyginių skaičių sumą, lyginių sandaugą.
 int sk,s1,s2,s3,s4,s5,lyg,nelyg,nsum,lsand;
