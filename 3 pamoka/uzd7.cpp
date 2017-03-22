@@ -13,19 +13,19 @@ setlocale(LC_CTYPE, "");
 
     cin >> a >> b >> c;
 
-    D = pow(b, 2) - 4 * a * c;
+    D = b * b - 4 * a * c;
+
     if (D < 0) {
-        cout << "Lygtis nesigaus.";
+        cout << "Gaunasi neigiama šaknis.";
     }
-    else {
-    x1 = ( b - 2 * b + sqrt(D) ) / 2 * a;
-    x2 = ( b - 2 * b - sqrt(D) ) / 2 * a;
-
-    cout << "1-asis x: " << x1 << ", 2-asis x: " << x2;
+    if (D = 0) {
+        x1 = ( b - 2 * b ) / (2 * a);
+        cout << "x = " << x1;
     }
-
-
-//cout << "Hello World!ę";
-//return 0;
+    if (D > 0) {
+        x1 = ( b - 2 * b + sqrt(D) ) / (2 * a);
+        x2 = ( b - 2 * b - sqrt(D) ) / (2 * a);
+        cout << "1-asis x: " << x1 << ", 2-asis x: " << x2;
+    }
 
 }
