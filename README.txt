@@ -8,18 +8,13 @@
             /\______\                                                                                  
             \/______/                                                                                 
 -------------------------------------------------------------------------------------------------------------------------
-Projektas pildomas...
+Up to date [2017-03-25]
 -------------------------------------------------------------------------------------------------------------------------
-                         Paaiškinimai:
-
-    Pavyzdys: "3-uzd3(empty0).cpp"
-
- 1. Skaičius "3" pradžioje failo vardo - pamokos numeris.
- 2. "uzd3": uzd - užduotis, 3 - uzduoties numeris.
- 3. "(tekstas)"
-    3.1. - "(empty0)" - failas visiškai tuščias
-    3.2. - "(empty1)" - faile yra nukopijuota užduotis arba c++ pradinis kodas.
-    3.3. - "(empty2)" - faile yra nukopijuota užduotis ir c++ pradinis kodas.
+...
+[X] 3 Pamoka [from uzd5 to uzd9]
+[ ] ...
+[ ] ...
+[ ] ...
 -------------------------------------------------------------------------------------------------------------------------
 
 
