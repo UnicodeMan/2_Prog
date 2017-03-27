@@ -23,7 +23,4 @@ main()
         }
     }
     cout << "Skaičiaus " << nprad << " ir " << mprad << " intervale yra " << d3 << " dalūs iš trijų skaičiai.";
-
-
-
 }
