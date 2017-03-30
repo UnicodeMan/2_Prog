@@ -1,6 +1,6 @@
 // Iš šešiaženklio skaičiaus išbraukti visus trejetus ir penketus.
-// teatchers request:
-// make number w/o 3 and 5 appear in ONE new variable
+// neatitinka reikalavimų:
+// skaičius be trejetų ir penketų turi būti viename kintamajame!
 #include <iostream>
 using namespace std;
 int main ()
