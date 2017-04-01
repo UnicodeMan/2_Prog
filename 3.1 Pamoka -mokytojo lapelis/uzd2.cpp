@@ -44,7 +44,6 @@ int main ()
 
 
 
-	//cout << "labas" << endl;
-	//return 0;
+
 
 }
