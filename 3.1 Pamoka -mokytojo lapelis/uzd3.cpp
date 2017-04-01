@@ -1,4 +1,4 @@
-/*
+/* nepabaigtas, netestuotas
 */
 #include <iostream>
 using namespace std;
@@ -18,33 +18,38 @@ int main ()
 	cout << "6 - ojo pasverto pyragėlio svoris, gramais: ";
 	cin p6;
 	if (p1,p2,p3,p4,p5,p6 < 50) {
-        "Suvalgė visus šešis pyragėlius."
+        cout << "Suvalgė visus šešis pyragėlius.";
 	}
-	cout << "Suvalgė "
-    is_viso = 0;
-    if (p1 < 50) {
-        is_viso++;
-        cout << "pirmąjį";
-    }
-    if (p2 < 50) {
-        is_viso++;
-        cout << ", antrąjį";
-    }
-    if (p1 < 50) {
-        is_viso++;
-        cout << ", trečiąjį";
-    }
-    if (p1 < 50) {
-        is_viso++;
-        cout << ", ketvirtąjį";
-    }
-    if (p1 < 50) {
-        is_viso++;
-        cout << ", penktąjį";
-    }
-    if (p1 < 50) {
-        is_viso++;
-        cout << ", šeštąjį";
-    }
-    cout << " pyragėlius."
+	else if (p1,p2,p3,p4,p5,p6 >= 50) {
+	cout << "Nesuvalgė nė vieno pyragėlio.";
+	}
+	else {
+		cout << "Suvalgė "
+    		is_viso = 0;
+    		if (p1 < 50) {
+        	is_viso++;
+        	cout << "pirmąjį";
+    		}
+    		if (p2 < 50) {
+        	is_viso++;
+        	cout << ", antrąjį";
+    		}
+    		if (p1 < 50) {
+        	is_viso++;
+        	cout << ", trečiąjį";
+    		}
+    		if (p1 < 50) {
+        	is_viso++;
+        	cout << ", ketvirtąjį";
+   	 	}
+    		if (p1 < 50) {
+        	is_viso++;
+        	cout << ", penktąjį";
+   		}
+   		if (p1 < 50) {
+        	is_viso++;
+        	cout << ", šeštąjį";
+    		}
+		cout << " pyragėlius. Iš viso buvo suvalgyti " << is_viso << " pyragėliai.";
+		}
 }
