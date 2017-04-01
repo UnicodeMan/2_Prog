@@ -1,7 +1,7 @@
 /*
 Apskaičiuokyte y reikšmę: 
-2x^2 - 2,   kai x >= 0;
-x^3 + 5x^3, kai x <  0.
+2x² - 2,   kai x >= 0;
+x² + 5x³, kai x <  0.
 */
 # include <iostream>
 # include <cmath>
