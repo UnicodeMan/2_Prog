@@ -41,9 +41,4 @@ int main ()
     else {
         cout << s6;
     }
-
-
-
-
-
 }
