@@ -7,14 +7,10 @@
 http://www.dziugogimnazija.lt/atsisiuntimai/FOR_uzdaviniai.pdf
       
       
-      
-      /--/--/--/--/--/--/--/--/--/--/--/
-      /     Sukurta:    2017-03-26;    /
-      /--/--/--/--/--/--/--/--/--/--/--/
+      ////////////////////////////////////////////////
+      //   4 pamoka prasidėjo: (dar neprasidėjo)    //
+      ////////////////////////////////////////////////
 
-    Redaguota: 
-    
-      2017-04-09;
-      2017-04-10;
-      
-      4 pamoka prasidėjo: 2017-__-__
+
+
+Paskutinį kartą redaguota 2017-04-10
