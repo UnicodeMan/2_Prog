@@ -4,8 +4,7 @@
             *                                         *
             *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
-http://www.dziugogimnazija.lt/atsisiuntimai/FOR_uzdaviniai.pdf
-      
+http://www.dziugogimnazija.lt/atsisiuntimai/Uždaviniai-If-sakiniui.pdf
       
       ////////////////////////////////////////////////
       //   3 pamoka prasidėjo: ???                  //
