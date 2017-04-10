@@ -9,12 +9,12 @@
 // **** Užduotis nepradėta! *****                                                                                //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#include <iostream.h>
+#include <iostream>
 using namespace std;
-setlocale(LC_CTYPE, "");
 main()
 
 {
+  setlocale(LC_CTYPE, "");
 
 
 
