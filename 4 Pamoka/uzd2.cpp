@@ -8,7 +8,7 @@ main()
 {
     setlocale(LC_CTYPE, "");
 
-    int m,n,d3,mprad,nprad;
+    int m,n,d3=0,mprad,nprad,i;
 
 
     cout << "Įveskite skaičių n: ";
@@ -16,9 +16,13 @@ main()
     cout << "Įveskite skaičių m: ";
     cin  >> m;
 
+    // Naudoti i vietoj n toliau---
+    i = n;
+    // Naudoti i vietoj n toliau---
+    
     mprad = m; nprad = n;
-    for (n == n; n <= m; n++) {
-        if (n % 3 == 0) {
+    for (i; i <= m; i++) {
+        if (i % 3 == 0) {
             d3++;
         }
     }
