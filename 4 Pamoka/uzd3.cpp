@@ -10,8 +10,8 @@ main()
     setlocale(LC_CTYPE, "");
     int n=1, uvid, sum=0, ugis, m;
     cout << "Kiek klasėje mokosi mokinių? Parašykite: ";
-    cin >> m;
-    for (m; m >= n; n++) {
+    cin >> i;
+    for (i; i >= n; n++) {
         cout << "Koks " << n << "-ojo mokinio ūgis? ";
         cin  >> ugis;
         sum = sum + ugis;
